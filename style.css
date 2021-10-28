@@ -1,0 +1,130 @@
+
+ul, nav{
+    list-style: none;
+    padding:5px;
+}
+
+
+
+
+body{
+    color: #000;
+    margin-top: 0px;
+    font-family:'Raleway',serif ;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #b1d8cf;
+
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover{
+    color:#1f4863;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Raleway',serif;
+    font-size: 80px;
+    align-items:center;
+    padding-top: 70px;
+    text-shadow: 3px 3px whitesmoke;
+}
+
+
+.motto{
+    font-family: 'Raleway',serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    align-items:  center;
+}
+
+.bigimages{
+    margin: 0 0 0 0;
+
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info{
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 10px solid whitesmoke;
+    margin-top: 15px;
+    image-orientation: ;
+}
+
+ .photoInfo{
+     border: 5px solid whitesmoke;
+    
+ }
+
+
+ .social{
+     font-size: 22px;
+     display: flex;
+     flex-direction: column;
+     padding:60px 0;
+     text-align: center;
+     align-items: center;
+    
+ }
+
+/* .illustrations .grid li{
+     padding: 20px;
+     height: 350px;
+     border-radius: 3px;
+
+     background-clip: content-box;
+     background-size: cover;
+     background-position: center;
+
+ }
+
+ .illustrations .grid li.small{
+    flex-basis: 40%;
+}
+
+ .illustrations .grid li.large{
+     flex-basis: 60%;
+ }
+
+@media (max-width: 1000px){
+    .illustrations .grid li.small, .illustrations .grid li.large{
+        flex-basis: 100%;
+    }
+}*/
+
+ /*.grid{
+     width:100%;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     margin:0 0 0 0;
+     padding:0px;
+ }
+*/
