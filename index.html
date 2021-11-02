@@ -8,19 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="2x/smallicon.png">
     <link rel="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="style.css"  rel="stylesheet">
 </head>
  
 
 <body>
- <!--<div class="menu-content">MENU
-    <nav>
-<ul>
-    <li><a href="#" target="index.html">home</a></li>
-    <li><a href="#" target="index.html">who we are</a></li>
-    <li><a href="#" target="index.html">who you are</a></li>
-    <li><a href="#" target="application.html">application</a></li>
-    <li><a href="#" target="schedule.html">schedule</a></li>
+ <!--<div class="menu-content">MENU !-->
+    <header>
+ <nav>
+     <div class="row limited">
+         <button id="hamburgerBtn">&#9776;</button>
+    <ul id="primaryNav">
+        <li><a href="#us">Who We Are</a></li>
+        <li><a href="#us">Who You Are</a></li>
+        <li><a href="#us">Testamonials</a></li>
+        <li><a href="#social">Connect</a></li>
+    </ul>
+        </div>
+</nav>
+</header>
+    <!--<li><a href="#" target="schedule.html">schedule</a></li>
     <li><a href="#" target="application.html">testamonials</a></li>
     <li><a href="#" target="schedule.html">pricing</a></li>
 </ul> 
@@ -28,9 +40,9 @@
  </header>
 </div> !-->
 
-    <main id="main">
-        Therapy Trails    
-    </main>
+    <title> 
+        Therapy Trails  
+    </title>
 
     <section>
         <div class="motto">
@@ -39,7 +51,7 @@
     </section>
 
   <section class="bigimages">
-        <img src="images/wild.jpg" alt="forest">
+        <img src="images/wild.jpg" alt="forest" > 
     </section>
 
     <section class="bigimages">
@@ -60,9 +72,11 @@
         </ul>
     </section> -->
  
-    <section class="info">
-        
-        <div class="us">
+   <!--maybe put this back after row test; this is the start of the test <section class="info" id="us">
+        <div class="us">-->
+            <main>
+    <div class="row">
+        <section class="column small-12 medium-6 large-3" id="us">
         <h2>Who We Are</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -76,9 +90,11 @@
             maecenas accumsan lacus. Tellus id interdum velit laoreet id donec. Egestas dui id ornare arcu odio ut sem
             nulla. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat.
         </p>
-        </d>
+        </section>
+    
             
-        <div class="them">
+      <!----maybe put this back after row test >  <div class="them"> -->
+        <section class="column small-12 medium-6 large-3" id="us">
         <h2>Who You Are</h2>
         <p>
             Quis varius quam quisque id diam vel quam
@@ -88,10 +104,11 @@
             facilisi etiam. Fusce ut placerat orci nulla pellentesque dignissim enim sit. Feugiat in ante metus dictum
             at tempor commodo ullamcorper. Vitae et leo duis ut diam quam.
         </p>
-        </div>
+        </section>
         <img class= photoInfo src="images/testamonial .jpg" alt="couple watching sunset">
 
-        <div class="testimonials">
+       <!--- maybe put this back after row test <div class="testamonials"> -->
+        <section class="column small-12 medium-6 large-3" id="us">
         <h2>Testimonials</h2>
         
         <p>
@@ -99,10 +116,12 @@
             elementum. Cursus euismod quis viverra nibh cras. Lorem mollis aliquam ut porttitor leo a diam sollicitudin.
             Sed sed risus pretium quam vulputate dignissim suspendisse in.
         </p>
+        </section>
         </div>
-    </section>
+        </main>
+  <!--end of row test to put back  </section> -->
 
-    <section>
+    <section id="social">
         <div class="social">
             <ul><h3>Connect with Us</h3>
                 <li><a href="#" target="_blank">therapytrails@tt.com</a></li>
@@ -114,8 +133,27 @@
     </section>
     <hr>
     <footer>
-        <p>&copy;2021 happyhorseshoe </p>
+        <p>&copy;<script>document.write(new Date().getFullYear())</script> happyhorseshoe </p>
     </footer>
+
+    <script src="site.js"></script>
+<!--<script type="text/javascript">
+        $(document).ready(function)(){
+            $('a[href^="#"}').on('click',function (e) {e.preventDefault(;
+            
+            var target = this.hash,
+            $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function() {
+                window.location.hash = target;
+            });
+        });
+        });
+        </script> -->
+
+
 </body>
 
 </html>
