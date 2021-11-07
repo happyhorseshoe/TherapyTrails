@@ -174,7 +174,6 @@ nav ul{
     nav li {
         font-size: 22px;
     }
-    
 }
 
 
@@ -205,14 +204,12 @@ nav ul{
 
   /* Container for flexboxes */
   .rowGuide {
-    display: -webkit-flex;
     display: flex;
+    
   }
   
   /* Create three equal columns that sits next to each other */
   .columnGuide {
-    -webkit-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     padding: 10px;
     
@@ -228,7 +225,6 @@ nav ul{
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
     .rowGuide {
-      -webkit-flex-direction: column;
       flex-direction: column;
     }
   }
