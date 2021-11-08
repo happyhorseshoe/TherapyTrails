@@ -19,6 +19,7 @@ a{
 
 p{
     font-size: 18px;
+    text-align: center;
 }
 
 title{
@@ -174,57 +175,43 @@ nav ul{
     nav li {
         font-size: 22px;
     }
+   
 }
 
 
-/* trying to do following for guides only; */
-
-* {
-    box-sizing: border-box;
-  }
+/*FOLLOWING IS GUIDES PAGE/*
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Style the header */
+  /* Style the header*/
   .guides {
-    background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
     font-size: 35px;
-  }
+}
 
-.guides img{
+.guides img{    
     width: 100%;
-    height: auto;
-    align-items: center;
-    
+    height: auto;   
 }
 
   /* Container for flexboxes */
+
   .rowGuide {
     display: flex;
-    
+    flex-basis: 20%;
   }
   
-  /* Create three equal columns that sits next to each other */
   .columnGuide {
-    flex: 1;
-    padding: 10px;
-    
+   flex: 1;
+   padding:10px;
+   border: whitesmoke solid 20px;
   }
   
-  /* Style the footer */
-  .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
+
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ /*Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
     .rowGuide {
       flex-direction: column;
     }
-  }
+}
+
