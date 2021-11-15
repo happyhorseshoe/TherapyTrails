@@ -157,6 +157,7 @@ nav ul{
         width:11%;
         font-size: 17px;
     }
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -170,9 +171,9 @@ nav ul{
 }
 
 
-/*FOLLOWING IS GUIDES PAGE/*
+/*FOLLOWING IS GUIDES PAGE */
   
-  /* Style the header*/
+
   .guides {
     padding: 30px;
     text-align: center;
@@ -189,12 +190,14 @@ nav ul{
   .rowGuide {
     display: flex;
     flex-basis: 20%;
+
   }
   
   .columnGuide {
    flex: 1;
    padding:10px;
    border: whitesmoke solid 20px;
+
   }
   
 
@@ -205,3 +208,134 @@ nav ul{
     }
 }
 
+@media only screen and (min-width: 602px){
+   .columnGuide {
+       flex:25%;
+       padding: 20px;
+   }
+   .rowGuide{
+       display:flex;
+       flex-wrap: wrap;
+   }
+}
+
+@media only screen and (min-width: 1024px){
+    .columnGuide{
+        border:none;
+    }
+}
+/*END OF GUIDES PAGE*/
+
+/*FOLLOWING IS SCHEDULE PAGE*/
+
+.responsive{
+    width: 100%;
+    display: grid;
+    border-radius: 8px;
+}
+
+.walking{
+    display: grid;
+    padding: 15px;
+}
+
+.walking h2 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px){
+    
+   .walking{
+       display: flex;
+       flex-direction: row;
+       
+   }
+   .walking div{
+       flex: 1;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 90px;
+       
+   }
+   .walking.reverse{
+       flex-direction: row-reverse;
+   }
+
+   .responsive{
+       margin: 20px;
+      
+   }
+
+   form{
+       display: flex;
+       width: 100%;
+   }
+}
+
+
+/*CONTACT FORM*/
+form{
+    margin:14rem 2rem;
+    border: solid black;
+    max-width: 25rem;
+    overflow: hidden;
+    display: grid;
+}
+
+label{
+    display: block;
+    padding: 2rem 1rem;
+    background-color: rgb(248, 222, 244);
+    font-weight: bold;
+}
+
+    
+input, textarea{
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    background-color: rgb(231, 252, 245);
+    border: rgb(0, 0, 0) 2.8px solid;
+    margin: .2rem;
+    width: 90%;
+}
+
+textarea{
+    min-height: 12rem;
+    max-width: 16rem;
+    
+}
+
+input:required {
+    border: 2px solid black;
+}
+
+input:required:valid{
+    border-color:green;
+}
+
+input:focus, textarea:focus {
+    background-color: #ddd;
+}
+
+input.submitBtn{
+    border:none;
+    background-color: rgb(224, 228, 228);
+    color: black;
+    font-size: 1.5rem;
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+ 
+ 
+    
