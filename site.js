@@ -18,8 +18,8 @@ function validateForm(){
     }
 }
 
-/*this shows alert box reading "name must be filled out" if name not on form
-console.log(validateForm());*/
+
+console.log(validateForm());
 
 
 
