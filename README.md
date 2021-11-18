@@ -6,7 +6,7 @@ The main images (WILD and CITY) are links, to the schedule.html page.
 CSS Feature: I used flexboxes and CSS grid to make images and content a single column layout when on a smaller screen or mulitple on a desktop.  
 The menu is also styled differently depending on size of screen. 
 
-JavaScript Feature: The copyright year automatically updates, this is seen in the html.  The hamburger button is done with JavaScript as well for the menu, this is seen in site.js file.  The form on the schedule.html page has a validate name function.  If name isn't put on the form it returns "name must be filled out" alert. This is in the site.js file
+JavaScript Feature: The copyright year automatically updates, this is seen in the html files.  The menu is done with a hamburger button using JavaScript; this is seen in site.js file.  The schedule.html page has a validate form function, that displays an alert box inviting the viewer to fill out the contact form at the bottom of the page; this is seen in the site.js  
 
 Some other features: The menu items that don't have their own pages, do jump to where the information is available on that page.  The connect section will pull up email. Built a form.  Worked on making site responsive and tried following the best practices lesson when it came to design.
 Use of a link in the text.  Icon on the browser tab, along with unique titles on each tab. Use of google fonts. I also worked on trying to resize image file sizes to save space.

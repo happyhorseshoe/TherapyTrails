@@ -8,16 +8,15 @@ let x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
 
-/*This is the form on schedule.html it alerts viewer if required information isn't filled out*/
+/*This is the form on schedule.html it alerts viewer to fill out the contact form*/
 function validateForm(){
     let x = document.forms["myForm"] ["name"].value;
     if (x ==""){
-        alert("Name must be filled out");
+        alert("To start your journey, fill out the form below")
         return false;
     
     }
 }
-
 
 console.log(validateForm());
 
